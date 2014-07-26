@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="253dp"
+        android:layout_height="176dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="THIS PAGE IS UNDER CONSTRUCTION"
+        android:id="@+id/textView"
+        android:layout_gravity="center" />
+</FrameLayout>

@@ -66,7 +66,7 @@ public class MainActivity extends ActionBarActivity
                 fragment = new controlFragment();
                 break;
             case 2:
-                //fragment = new PhotosFragment();
+                fragment = new aboutClass();
                 break;
 
 
@@ -85,7 +85,6 @@ public class MainActivity extends ActionBarActivity
             Log.e("MainActivity", "Error in creating fragment");
         }
 
-        // here is the code to call required fragment
 
 
 
@@ -153,13 +152,6 @@ public class MainActivity extends ActionBarActivity
          * Returns a new instance of this fragment for the given section
          * number.
          */
-      /*  public static PlaceholderFragment newInstance(int sectionNumber) {
-            PlaceholderFragment fragment = new PlaceholderFragment();
-            Bundle args = new Bundle();
-            args.putInt(ARG_SECTION_NUMBER, sectionNumber);
-            fragment.setArguments(args);
-            return fragment;
-        }*/
 
         public PlaceholderFragment() {
         }
